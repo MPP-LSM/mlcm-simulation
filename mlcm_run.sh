@@ -8,7 +8,13 @@ mppdir=
 display_help() {
     echo "Usage: $0 " >&2
     echo
-    echo "   -gs_type   <0-4>                                    Stomatal conductance model"
+    echo "   -gs_type   <0-4>                                    Stomatal conductance model:"
+    echo "                                                         0 - Medlyn"
+    echo "                                                         1 - Ball-Berry"
+    echo "                                                         2 - WUE"
+    echo "                                                         3 - Bonan14"
+    echo "                                                         4 - Manzoni11"
+    echo ""
     echo "   -case_name <control,2K,5K,467ppm,567ppm,sm70,sm85>  Supported cases"
     echo "   -mpp_dir   <path-to-mpp-code>                       MPP code directory"
     echo "   -h, --help                                          Display this message"
